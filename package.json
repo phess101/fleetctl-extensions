@@ -1,0 +1,28 @@
+{
+  "name": "fleetctl-extensions",
+  "version": "0.1.0",
+  "description": "A nodejs module for interacting with fleet. Adding more available commands.",
+  "main": "main.js",
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/phess-andculture/fleetctl-extensions.git"
+  },
+  "keywords": [
+    "fleet",
+    "fleetctl",
+    "coreos"
+  ],
+  "author": {
+    "name": "Phil Hess",
+    "email": "phess@andculture.com"
+  },
+  "license": "GPLv2",
+  "homepage": "https://github.com/phess-andculture/fleetctl-extensions",
+}
