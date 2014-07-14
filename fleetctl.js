@@ -7,6 +7,7 @@ function Fleetctl(config){
 
 Fleetctl.prototype.configure = function(config){
     this.binary = config.binary || "fleetctl";
+    this.timeout = config.timeout || 1000;
 }
 
 _.each(api, function(method, name){
